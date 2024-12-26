@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id= "sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>HTML, CSS, Javascript, React.js</p>
+                <h1>Hi, I'm <span>Vishwanath.N</span><br> from Andra Pradesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am originally from Hindupur, located in the Rayalaseema region.
+                        I have always been deeply devoted to the study of computer sciences.
+                    In my free time, I enjoy playing video games, reading books, and going on long bike rides.
+                I have a special love for beaches and snowy mountains, both of which bring me immense joy.
+            I am also deeply facinated by the field of astronomy and its wonders. Additionally, I am passionate
+        about fitness and proudly consider myself a gym enthusiast. </p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick=" opentab('skills') ">Skills</p>
+            <p class="tab-links active-link" onclick=" opentab('Hobbies') ">Hobbies</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                
+                <li><span>Web development</span><br>Web App Development (HtML, CSS, Javascript, React JS)</li>
+                <li><span>Data analysis</span><br>collect,process,interpret data to help organization make informed decisions</li>
+                <li><span>Microsoft Excel</span><br>Data organization and management, Data visualization, Data Import and export</li>
+                <li><span>Gym</span><br>Proper form and technique, Strength Training, Workout Programming, Gym Etiquette, Mental Discipline</li>
+            </ul>
+        </div>
+        <div class="tab-contents active-tab" id="Hobbies">
+            <ul>
+                <li><span>Reading books</span><br>Fiction,Romance,Adventure,Satire and Humour</li>
+                <li><span>Video games</span><br>Mobile gaming, PC games, PSP</li>
+                <li><span>Playing cricket</span><br>With the friends from School, Collage, Street</li>
+                <li><span>Gym</span><br>Daily routine include Strength training, Cardio</li>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Experience">
+        <div class="container">
+            <h1 class="sub-title">Experience</h1> 
+            <div class="experience-list">
+                <div>
+                    <img src="images/seoyon.png">
+                    <h2>Graduate Engineering Traniee at <a href="http://seoyonehap.com/">Seoyon E-Hwa Automotives</a></h2>
+                    <p>Component Preparation<br> Assembly Operations<br> Fitting and alignment<br> Wiring and Connectivity<br> Quality Inspection<br> Process Optimization</p>
+                </div>
+                <div>
+                    <img src="images/nLearn logo color.c3052b95.svg">
+                    <h2>Product Operations Executive at <a href="https://www.narayanagroup.com/">Narayana's The Learning App</a></h2>
+                    <p>Product Lifecycle Support<br> Data Analysis and Reporting<br> Process Optimization<br> Cross-Functional Collaboration<br> Quality Assurance<br> Customer Support and Feedback</p>
+                </div>
+                <div>
+                    <img src="images/yd-logo.png">
+                    <h2> Operations Executive at <a href="https://yourdost.com/">YourDOST</a></h2>
+                    <p>1. Implementing operational strategies to achieve the organization's goals and objectives. <br> 2. Identifying and optimizing operational processes to enhance efficiency and productivity.<br>  3. Ensuring smooth day-to-day operations. <br> 4. Facilitating communication between different departments and teams to ensure alignment with operational  goals. <br> 5. Ensuring customer satisfaction by delivering our services on time and meeting customer expectations.</p>
+                </div>
+                <div>
+                    <img src="images/Industry era logo.png">
+                    <h2>Data Research Analyst at <a href="https://www.industry-era.com/">Industry Era</a></h2>
+                    <p>1. Gathering data from various sources, such as databases, surveys, or web scraping. <br> 2. Preparing and cleaning data to ensure accuracy and consistency. <br> 3. Using statistical and analytical tools to identify trends, patterns, and insights within the data. <br> 4. Strong Excel skills for data manipulation and analysis. <br> 5. Understanding the specific industry or business context to provide valuable insights. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Education">
+        <div class="container">
+            <h1 class="sub-title">My Education</h1>
+            <div class="education-list">
+                <div class="saduvu">
+                    <img src="images/bitit.png">
+                    <div class="layer">
+                        <h3>B.tech</h3>
+                        <p>Computer Science and Engineering</p>
+                        <a href="https://www.shiksha.com/college/bit-institute-of-technology-anantapur-22479">Bit Institute of Technology</a>
+                    </div>
+                </div>
+                <div class="saduvu">
+                    <img src="images/njc.png">
+                    <div class="layer">
+                        <h3>Intermediate </h3>
+                        <p>Group :- MPC(Mathematics, Physics, Chemistry)</p>
+                        <a href="https://www.narayanajuniorcolleges.com/">Narayana Junior Collage</a>
+                    </div>
+                </div>
+                <div class="saduvu">
+                    <img src="images/chaitanya.png">
+                    <div class="layer">
+                        <h3>10th Class</h3>
+                        <p>High School</p>
+                        <a href="https://srichaitanyaschool.net/">Sri Chaitanya Techno School</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p<i class="fas fa-envelope"></i> >gcemvishwanath@gmail.com</p>
+                    <p<i class="fas fa-phone"></i> >9490746766</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_vishwanath.n_/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/vishwanath.vishu.507464/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/vishu111821"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/vishwanath-nagaraj-619a13295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="My CV.pdf" class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name= "messageForm">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>This page is created by Vishwanath.N</p>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+</body>
+</html>
